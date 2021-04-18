@@ -3,8 +3,8 @@ Human-inspired robot control based on the vestibular system. The model of the ve
 These are the Matlab codes used in the paper "A Human-inspired Simulator for the Study of Orientation and Balance Control".   https://www.wseas.org/multimedia/journals/biology/2019/a045108-099.pdf  
 
 -Files folder
-    To reproduce the simulation results of the paper, try to open and run the file "interfaz_grafica.m"
-     A graphic user interface will open. Now, you can sepparately run the model of the human vestibular system placed on the left, or the robot simulation placed on the right.  
+>>	To reproduce the simulation results of the paper, try to open and run the file "interfaz_grafica.m"
+>>>		A graphic user interface will open. Now, you can sepparately run the model of the human vestibular system placed on the left, or the robot simulation placed on the right.  
 	1- Vestibular system model  
 		- "Seleccion de hipotesis para los canales semicirculares" menu allows to choose among 2 hypothesis: orthogonal or non orthogonal canals.
 		- "Seleccion del tipo de velocidad angular de la plataforma giratoria" menu allows to choose the stimulus angular velocity among constant, trapezoidal or sinusoidal.  
