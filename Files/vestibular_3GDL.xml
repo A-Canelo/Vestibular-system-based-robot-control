@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<PhysicalModelingXMLFile>
+
+  <formatVersion>"1.0.4"</formatVersion>
+
+  <internalVersion>1</internalVersion>
+
+  <createdUsing>"SimMechanics Link Version 3.2.2"</createdUsing>
+
+  <createdFrom>"SolidWorks 22.2.0"</createdFrom>
+
+  <createdOn>"06/15/17||20:09:10"</createdOn>
+
+  <createdBy>"No formal user defined!"</createdBy>
+
+  <name>"vestibular_3GDL"</name>
+
+  <SimMechanics>
+    <name>"vestibular_3GDL"</name>
+    <nodeID>"vestibular_3GDL"</nodeID>
+    <bodies>
+      <Body>
+        <name>"mastil-2"</name>
+        <nodeID>"mastil-2"</nodeID>
+        <status>""</status>
+        <mass>3.50962</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>0.075228,0,0,0,0.0750951,0,0,0,0.00440334</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>0.00350962</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.195728</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"mastil-2::CG(AUTOGEN)"</nodeID>
+            <position>-0.996339,1.5628,1.65002</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.976033,0.173903,-0.130834,0.092947,0.210487,0.973168,0.196775,-0.962005,0.189279</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"mastil-2::CS1(AUTOGEN)"</nodeID>
+            <position>-1.02876,1.72129,1.61883</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.976033,0.173903,-0.130834,0.092947,0.210487,0.973168,0.196775,-0.962005,0.189279</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="7">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"cabezalter-2:-:mastil-2::mastil-2(AUTOGEN)"</nodeID>
+            <position>-1.06811,1.91369,1.58098</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="11">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"articulacionY2-1:-:mastil-2::mastil-2(AUTOGEN)"</nodeID>
+            <position>-1.00475,1.35665,1.69541</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"vestibular_3GDL - mastil-2.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0,0,1</color>
+          <ambient>1</ambient>
+          <diffuse>0.7</diffuse>
+          <specular>0.2</specular>
+          <shininess>0.2</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"articulacionX-1"</name>
+        <nodeID>"articulacionX-1"</nodeID>
+        <status>""</status>
+        <mass>0.449248</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>0.00184415,0,0,0,0.00184415,0,0,0,0.000148165</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>0.000449248</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.0425686</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"articulacionX-1::CG(AUTOGEN)"</nodeID>
+            <position>-0.929385,1.23548,1.71442</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.747256,0.631181,-0.207889,0.658004,-0.746529,0.0986216,-0.092947,-0.210487,-0.973168</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"articulacionX-1::CS1(AUTOGEN)"</nodeID>
+            <position>-0.919161,1.25863,1.82147</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.747256,0.631181,-0.207889,0.658004,-0.746529,0.0986216,-0.092947,-0.210487,-0.973168</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="6">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"articulacionX-1:-:plataforma3-1::articulacionX-1(AUTOGEN)"</nodeID>
+            <position>-0.932639,1.22811,1.68036</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="14">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"articulacionX-1:-:soport_ mastil-1::articulacionX-1(AUTOGEN)"</nodeID>
+            <position>-0.93961,1.21232,1.60737</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"vestibular_3GDL - articulacionX-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0,0.752941,0</color>
+          <ambient>1</ambient>
+          <diffuse>0.7</diffuse>
+          <specular>0.2</specular>
+          <shininess>0.2</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"articulacionY2-1"</name>
+        <nodeID>"articulacionY2-1"</nodeID>
+        <status>""</status>
+        <mass>0.409978</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>0.00142936,0,0,0,0.00142936,0,0,0,0.000135894</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>0.000409978</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.039427</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"articulacionY2-1::CG(AUTOGEN)"</nodeID>
+            <position>-0.95595,1.36535,1.68887</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.0960397,-0.195284,-0.976033,-0.195284,0.965206,-0.173903,0.976033,0.173903,-0.130834</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"articulacionY2-1::CS1(AUTOGEN)"</nodeID>
+            <position>-1.05355,1.34796,1.70195</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.0960397,-0.195284,-0.976033,-0.195284,0.965206,-0.173903,0.976033,0.173903,-0.130834</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="10">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"articulacionY2-1:-:soport_ mastil-1::articulacionY2-1(AUTOGEN)"</nodeID>
+            <position>-0.858347,1.38274,1.67578</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="12">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"articulacionY2-1:-:mastil-2::articulacionY2-1(AUTOGEN)"</nodeID>
+            <position>-1.00475,1.35665,1.69541</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"vestibular_3GDL - articulacionY2-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0,0.752941,0</color>
+          <ambient>1</ambient>
+          <diffuse>0.7</diffuse>
+          <specular>0.2</specular>
+          <shininess>0.2</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"soport_ mastil-1"</name>
+        <nodeID>"soport_ mastil-1"</nodeID>
+        <status>""</status>
+        <mass>1.00146</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>0.0110546,0,0,0,0.0131157,0,0,0,0.00857204</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>0.00100146</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.227775</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"soport_ mastil-1::CG(AUTOGEN)"</nodeID>
+            <position>-0.938561,1.28034,1.70559</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.092947,-0.210487,-0.973168,-0.196775,0.962005,-0.189279,0.976033,0.173903,-0.130834</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"soport_ mastil-1::CS1(AUTOGEN)"</nodeID>
+            <position>-1.01081,1.20547,1.83145</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.092947,-0.210487,-0.973168,-0.196775,0.962005,-0.189279,0.976033,0.173903,-0.130834</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="9">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"articulacionY2-1:-:soport_ mastil-1::soport_ mastil-1(AUTOGEN)"</nodeID>
+            <position>-0.858347,1.38274,1.67578</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="13">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"articulacionX-1:-:soport_ mastil-1::soport_ mastil-1(AUTOGEN)"</nodeID>
+            <position>-0.93961,1.21232,1.60737</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"vestibular_3GDL - soport_ mastil-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>1,1,0</color>
+          <ambient>1</ambient>
+          <diffuse>0.7</diffuse>
+          <specular>0.2</specular>
+          <shininess>0.2</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"base-1"</name>
+        <nodeID>"base-1"</nodeID>
+        <status>""</status>
+        <mass>19.3806</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>1.44455,-0.00802996,0.0117219,-0.00802996,1.54377,0.000942488,0.0117219,0.000942488,2.98379</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>0.0193806</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>2.04658</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"base-1::CG(AUTOGEN)"</nodeID>
+            <position>-0.890894,1.04605,1.76218</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.139887,-0.163531,-0.97657,-0.970418,-0.218643,-0.102393,-0.196775,0.962005,-0.189279</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"base-1::CS1(AUTOGEN)"</nodeID>
+            <position>-0.888063,1.03346,1.75417</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.139887,-0.163531,-0.97657,-0.970418,-0.218643,-0.102393,-0.196775,0.962005,-0.189279</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="2">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"base-1:-:vestibular_3GDL/RootPart::base-1(AUTOGEN)"</nodeID>
+            <position>-0.890894,1.04605,1.76218</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="3">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"base-1:-:plataforma3-1::base-1(AUTOGEN)"</nodeID>
+            <position>-0.891998,1.0527,1.75038</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"vestibular_3GDL - base-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.25098,0.25098,0.25098</color>
+          <ambient>1</ambient>
+          <diffuse>0.7</diffuse>
+          <specular>0.2</specular>
+          <shininess>0.2</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"RootPart"</name>
+        <nodeID>"vestibular_3GDL/RootPart"</nodeID>
+        <status>""</status>
+        <mass>0</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>0,0,0,0,0,0,0,0,0</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>0</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"vestibular_3GDL/RootPart::CG(AUTOGEN)"</nodeID>
+            <position>-0.906757,1.13031,1.7432</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"vestibular_3GDL/RootPart::CS1(AUTOGEN)"</nodeID>
+            <position>0,0,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="1">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"base-1:-:vestibular_3GDL/RootPart::vestibular_3GDL/RootPart(AUTOGEN)"</nodeID>
+            <position>-0.890894,1.04605,1.76218</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="16">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"RootGround:-:vestibular_3GDL/RootPart::vestibular_3GDL/RootPart(AUTOGEN)"</nodeID>
+            <position>-0.906757,1.13031,1.7432</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>""</geometryFileName>
+      </Body>
+      <Body>
+        <name>"cabezalter-2"</name>
+        <nodeID>"cabezalter-2"</nodeID>
+        <status>""</status>
+        <mass>2.12992</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>0.00545804,-3.68059e-009,-2.35881e-008,-3.68059e-009,0.00566829,-5.55414e-005,-2.35881e-008,-5.55414e-005,0.00533957</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>0.00212992</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.0865457</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"cabezalter-2::CG(AUTOGEN)"</nodeID>
+            <position>-1.07939,1.96891,1.57114</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.980265,0.196775,-0.0189833,-0.196775,0.962005,-0.189279,-0.0189833,0.189279,0.98174</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"cabezalter-2::CS1(AUTOGEN)"</nodeID>
+            <position>-1.07902,1.96701,1.57049</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.980265,0.196775,-0.0189833,-0.196775,0.962005,-0.189279,-0.0189833,0.189279,0.98174</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="8">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"cabezalter-2:-:mastil-2::cabezalter-2(AUTOGEN)"</nodeID>
+            <position>-1.06811,1.91369,1.58098</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"vestibular_3GDL - cabezalter-2.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.988235,0.737255,0.517647</color>
+          <ambient>1</ambient>
+          <diffuse>0.7</diffuse>
+          <specular>0.2</specular>
+          <shininess>0.2</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"plataforma3-1"</name>
+        <nodeID>"plataforma3-1"</nodeID>
+        <status>""</status>
+        <mass>40.7194</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>2.62975,0.0149464,-0.00326412,0.0149464,2.48143,0.0327264,-0.00326412,0.0327264,5.06129</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>0.0407194</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>1.82024</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"plataforma3-1::CG(AUTOGEN)"</nodeID>
+            <position>-0.896029,1.08206,1.75298</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.976033,0.173903,-0.130834,-0.092947,-0.210487,-0.973168,-0.196775,0.962005,-0.189279</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"plataforma3-1::CS1(AUTOGEN)"</nodeID>
+            <position>-0.891998,1.0527,1.75038</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.976033,0.173903,-0.130834,-0.092947,-0.210487,-0.973168,-0.196775,0.962005,-0.189279</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="4">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"base-1:-:plataforma3-1::plataforma3-1(AUTOGEN)"</nodeID>
+            <position>-0.891998,1.0527,1.75038</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="5">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"articulacionX-1:-:plataforma3-1::plataforma3-1(AUTOGEN)"</nodeID>
+            <position>-0.932639,1.22811,1.68036</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"vestibular_3GDL - plataforma3-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.501961,0.501961,1</color>
+          <ambient>1</ambient>
+          <diffuse>0.7</diffuse>
+          <specular>0.2</specular>
+          <shininess>0.2</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+    </bodies>
+    <joints>
+      <SimpleJoint>
+        <name>"RootPart--base-1"</name>
+        <nodeID>"base-1:-:vestibular_3GDL/RootPart"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="1"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="2"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"weld"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"base-1--plataforma3-1"</name>
+        <nodeID>"base-1:-:plataforma3-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="3"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="4"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>-0.196775,0.962005,-0.189279</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"plataforma3-1--articulacionX-1"</name>
+        <nodeID>"articulacionX-1:-:plataforma3-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="5"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="6"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>-0.092947,-0.210487,-0.973168</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"mastil-2--cabezalter-2"</name>
+        <nodeID>"cabezalter-2:-:mastil-2"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="7"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="8"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>-0.196775,0.962005,-0.189279</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"soport_ mastil-1--articulacionY2-1"</name>
+        <nodeID>"articulacionY2-1:-:soport_ mastil-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="9"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="10"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.976033,0.173903,-0.130834</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"mastil-2--articulacionY2-1"</name>
+        <nodeID>"articulacionY2-1:-:mastil-2"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="11"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="12"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>-0.976033,-0.173903,0.130834</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"soport_ mastil-1--articulacionX-1"</name>
+        <nodeID>"articulacionX-1:-:soport_ mastil-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="13"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="14"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>-0.092947,-0.210487,-0.973168</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"RootGround--RootPart"</name>
+        <nodeID>"RootGround:-:vestibular_3GDL/RootPart"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="15"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="16"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"weld"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+    </joints>
+    <grounds>
+      <Ground>
+        <name>"RootGround"</name>
+        <nodeID>"RootGround"</nodeID>
+        <status>""</status>
+        <frame>
+          <Frame ref="15">
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"RootGround:-:vestibular_3GDL/RootPart::RootGround(AUTOGEN)"</nodeID>
+            <position>-0.906757,1.13031,1.7432</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frame>
+      </Ground>
+    </grounds>
+    <subsystems></subsystems>
+    <connectionPorts></connectionPorts>
+    <id>0</id>
+  </SimMechanics>
+
+</PhysicalModelingXMLFile>
