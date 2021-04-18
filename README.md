@@ -17,6 +17,6 @@ Files folder
 >>>> - Case 1: Kp = 2, Ki = 5, Ki1 = 5  
 >>>> - Case 2: Kp = 2, Ki = 8, Ki1 = 8  
 >>> - Check "Ver seguimiento de la posicion" to show the error angles yaw, pitch and roll resulting plots.  
->>> - Finally, press "Simular" to run your simulation.  
+>>> - Finally, press "Simular" to run your simulation.   
 Figures folder  
->>	- Figures obtained from the simulation and shown in the paper.
+>>	Figures obtained from the simulation and shown in the paper.
