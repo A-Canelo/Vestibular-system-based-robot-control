@@ -1,6 +1,7 @@
 # Vestibular-system-based-robot-control
 Human-inspired robot control based on the vestibular system. The model of the vestibular system is made up by the sermicircular canals and the otolith organs.  
 These are the Matlab codes used in the paper "A Human-inspired Simulator for the Study of Orientation and Balance Control".   https://www.wseas.org/multimedia/journals/biology/2019/a045108-099.pdf  
+The software needed to run these files are Matlab, Simulink and the toolbox "Simscape Multibody".  
 
 Files folder
 >>	To reproduce the simulation results of the paper, try to open and run the file "interfaz_grafica.m".	A graphic user interface will open. Now, you can sepparately run the model of the human vestibular system placed on the left, or the robot simulation placed on the right.  
