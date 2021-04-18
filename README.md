@@ -6,10 +6,10 @@ These are the Matlab codes used in the paper "A Human-inspired Simulator for the
 >	To reproduce the simulation results of the paper, try to open and run the file "interfaz_grafica.m"
 >		A graphic user interface will open. Now, you can sepparately run the model of the human vestibular system placed on the left, or the robot simulation placed on the right.  
 >	1- Vestibular system model  
->		- "Seleccion de hipotesis para los canales semicirculares" menu allows to choose among 2 hypothesis: orthogonal or non orthogonal canals.
->		- "Seleccion del tipo de velocidad angular de la plataforma giratoria" menu allows to choose the stimulus angular velocity among constant, trapezoidal or sinusoidal.  
->		- "Considerar movimiento de la cabeza?" menu allows to choose whether you want to consider angular motion of the hypothetical "head" or consider it static  
->		- "Seleccion del tipo de velocidad angular de la cabeza en cada eje" menu will be available in the case you chose in the previous menu the option "con movimiento", > 
+>>		- "Seleccion de hipotesis para los canales semicirculares" menu allows to choose among 2 hypothesis: orthogonal or non orthogonal canals.
+>>	- "Seleccion del tipo de velocidad angular de la plataforma giratoria" menu allows to choose the stimulus angular velocity among constant, trapezoidal or sinusoidal.  
+>>	- "Considerar movimiento de la cabeza?" menu allows to choose whether you want to consider angular motion of the hypothetical "head" or consider it static  
+>>	- "Seleccion del tipo de velocidad angular de la cabeza en cada eje" menu will be available in the case you chose in the previous menu the option "con movimiento", > 
 >			that is considering angular motion. Choose between "alabeo", "cabeceo", "guinada" or "combinado" for roll, pich, yaw or combined respectively.  
 >		- "Considerar aceleracion lineal?" menu allows to choose whether you want to inroduce linear acceleration or not as stimulus.  
 >		- Check "Ver respuesta de los otolitos" to show the otolith organs resulting plot.  
