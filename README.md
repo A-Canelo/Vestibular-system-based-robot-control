@@ -4,7 +4,7 @@ These are the Matlab codes used in the paper "A Human-inspired Simulator for the
 
 -Files folder
 >>	To reproduce the simulation results of the paper, try to open and run the file "interfaz_grafica.m"
->>>		A graphic user interface will open. Now, you can sepparately run the model of the human vestibular system placed on the left, or the robot simulation placed on the right.  
+		A graphic user interface will open. Now, you can sepparately run the model of the human vestibular system placed on the left, or the robot simulation placed on the right.  
 	1- Vestibular system model  
 		- "Seleccion de hipotesis para los canales semicirculares" menu allows to choose among 2 hypothesis: orthogonal or non orthogonal canals.
 		- "Seleccion del tipo de velocidad angular de la plataforma giratoria" menu allows to choose the stimulus angular velocity among constant, trapezoidal or sinusoidal.  
